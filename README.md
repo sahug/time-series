@@ -30,3 +30,4 @@ In some cases depending on model we need to provide the feature, X, and labels, 
 |TSA - Basics - Finance and Statistics|PercentChange, StockReturn, AbsChange, CompareTimeSeries, WindowFunction, OHLCChart, CandlestickChart, ACF, PACF|
 |TSA - Basics - Decomposition and Random Walks|Trends, Seasonality, Noise, WhiteNoise, RandomWalk, Stationarity|
 |TSA - Basics - Modeling using StatsModels|AR, MA, ARMA, ARIMA, VAR, SARIMA|
+|TSA - Basics - Modelling Time Series Using Regression|Regression, OLS, GLS|
