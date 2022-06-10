@@ -5,11 +5,14 @@ While building a model for time series analysis during the model training we tak
 **Example:**
 
 Lets say we have a dataset that records temperature per day, 60 records in total, and we want to predict the temperature next day. 
-Here we will select lag or window, ex: 7 days. 6 days will be input and 7th day will be output. The same logic can be applied to any time series dataset once we know the time range, hour, day, year on which the record is available and what time range we are predicting.
+
+Here we will select lag or window, ex: 7 days. 6 days will be input and 7th day will be output. 
+
+The same logic can be applied to any time series dataset once we know the time range, hour, day, year on which the record is available and what time range we are predicting.
 
 **ARMA (Auto Regressive Moving Average)**
 
-If we are using ARMA we provide some values, coefficients for AR and MA. These coefficents are nothing but out lags. The model then makes this split and predicts the next value and compares with the actual value. These coefficient can be different for AR and MA and it depends how far back we want to look for calculating each AR and MA.
+If we are using ARMA we provide some values, coefficients for AR and MA. These coefficents are nothing but lags. The model then makes this split and predicts the next value and compares it with the actual value. These coefficient can be different for AR and MA and it depends how far back we want to look for calculating each AR and MA.
 
 **ARIMA (Auto Regressive Integrated Moving Average)**
 
