@@ -32,3 +32,8 @@ In some cases depending on model we need to provide the feature, X, and labels, 
 |TSA - Basics - Modeling using StatsModels|AR, MA, ARMA, ARIMA, VAR, SARIMA|
 |TSA - Basics - Modelling Time Series Using Regression|Regression, OLS, GLS|
 |TSA - Basics - Modelling Time Series Using LSTM|LSTM|
+|TSA - ARIMA - Web Traffic Time Series Forecasting|ARIMA|
+|TSA - Autoregression - Web Traffic Time Series Forecasting|Autoregression|
+|TSA - Prophet - Web Traffic Time Series Forecasting|Prophet|
+|TSA - LSTM - Web Traffic Time Series Forecasting|LSTM|
+|TSA - XGBoost  - Web Traffic Time Series Forecasting|XGBoost|
